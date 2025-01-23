@@ -1,0 +1,99 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.nav-color {
+  background-color: #2c3e50;
+}
+.nav {
+  font-weight: 700;
+  font-size: 1.8125rem;
+  line-height: 2.75rem;
+}
+.footer-color {
+  background-color: #1a252f;
+}
+.home {
+  background-color: #1abc9c;
+}
+.about {
+  background-color: #1abc9c;
+}
+.about h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+.about p {
+  font-weight: 400;
+}
+.title {
+  color: rgb(44, 62, 80);
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+.title i {
+  color: rgb(44, 80, 59);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1rem;
+}
+form {
+  color: rgba(33, 37, 41, 0.586);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5625rem;
+}
+
+.portfolio-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-item img {
+  transition: transform 0.3s ease;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1aba9fe3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.portfolio-item:hover .overlay {
+  opacity: 1;
+}
+
+.overlay p {
+  font-size: 6rem;
+  font-weight: 900;
+  color: white;
+  line-height: 6rem;
+}
+
+
+.icon-wrapper {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white; 
+    border-radius: 50%; 
+    color: white;
+    background-color: transparent; 
+    transition: all 0.3s ease;
+  }
+  
+
+  
+  
