@@ -2,12 +2,9 @@
   "name": "react-project1",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://yasmin2624.github.io/startFramework",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
