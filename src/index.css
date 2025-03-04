@@ -16,14 +16,28 @@ body {
 .home {
   background-color: #1abc9c;
 }
-.about {
+.about{
   background-color: #1abc9c;
+}
+.about2 {
+  background-color: #1abc9c;
+  border: #1abc9c 2px solid;
+  padding: 5px 20px;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+.about2:hover {
+  color: #159178;
+  background-color: #ffffffa5;
+  border: #1abc9c 2px solid;
 }
 .about h2 {
   font-weight: 700;
   font-size: 2.5rem;
   line-height: 3rem;
+  color:#1a252f;
 }
+
 .about p {
   font-weight: 400;
 }

@@ -52,7 +52,7 @@ export default function Contact() {
     <label htmlFor="exampleInputPassword" className="form-label">user Password</label>
     <input type="password" className="form-control" id="exampleInputPassword" />
   </div>
-  <button type="submit" className="btn about text-white">Submit</button>
+  <button type="submit" className="about2">Submit</button>
 </form>
 
     </div>
